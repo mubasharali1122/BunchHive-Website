@@ -1,0 +1,332 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    margin: auto;
+    padding: 2rem;
+    max-width: 1377px;
+}
+
+#navbar {
+    display: flex;
+     align-items: center;
+    justify-content: space-between;
+    background: rgb(248, 248, 248);
+    color: white;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+   
+}
+
+#navbar img {
+    width: 60%;
+    padding-left: 2rem;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+#navbar ul li a {
+    display: block;
+    padding: 2rem;
+    text-decoration: none;
+    color: #333;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.permanent{
+    background: rgba(184, 219, 217, 0.733);
+color:rgb(248, 248, 248);
+}
+
+.homebackgroundinfo {
+    background: url('../images/blurred-background-coffee-cup-contemporary-908284.jpg') no-repeat center center/cover;
+    height: 100vh;
+   color: rgb(248, 248, 248);
+   position: relative;
+}
+
+.homebackgroundinfo-content {
+    position: absolute;
+    background: rgba(51, 51, 51, 0.418);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0;
+}
+
+.homebackgroundinfo-content h1 {
+    font-size: 1.9rem;
+    padding: 0.7rem 0;
+}
+
+.homebackgroundinfo-content p {
+    font-size: 1.1rem;
+    padding-bottom: 0.7em;
+}
+
+.homebackgroundinfo-content .btn {
+    display: block;
+    padding: 0.5rem 1.5rem;
+    background: rgb(248, 248, 248);
+    color: #000;
+    border-radius: 0.1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.homebackgroundinfo-content .btn:hover {
+    background: rgba(184, 219, 217, 0.884);
+    color: rgb(248, 248, 248);
+}
+
+#features {
+    background: rgb(248, 248, 248);
+
+}
+
+#features .featuresinfo {
+    background: rgb(248, 248, 248);
+}
+
+#features h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #000;
+    padding: 2rem 0 5rem 0;
+    position: relative;
+   
+}
+.textborder::after {
+    content: '';
+    position: absolute;
+    background:  rgba(184, 219, 217);
+    width: 5%;
+    height: 7px;
+    left: 48%;
+    bottom: 0;
+    top: 70%;
+}
+
+#features .boxleft {
+    display: flex;
+}
+
+#features .boxleft img {
+    width: 30%;
+    margin: auto;
+    display: block;
+    padding: 2rem 0 5rem 0;
+}
+
+#features .boxright {
+    display: flex;
+}
+
+#features .boxright img {
+    display: block;
+    margin: auto;
+    width: 30%;
+    
+}
+
+
+
+
+
+#about-client .clientleft {
+    font-size: 2.5em;
+    text-align: center;
+    color: #000;
+    padding: 1em 0 2em 0;
+    position: relative;
+}
+
+#about-client .clientright {
+    display: flex;
+}
+
+#about-client .clientright img {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+#main-footer {
+    text-align: center;
+}
+
+#main-footer  {
+    background:gray;
+    padding: 0.5rem 0 0 0;
+}
+
+#main-footer .footer2 {
+    background: rgb(248, 248, 248);
+}
+
+#main-footer .fa {
+    padding: 1rem;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background: #333;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+#contact {
+    display: flex;
+}
+
+#contact h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 2rem 0 5rem 0;
+    position: relative;
+}
+
+.textborder2::after {
+    content: '';
+    position: absolute;
+    top: 65%;
+    left: 47%;
+    right: 0;
+    bottom: 0;
+    background: white;
+    width: 5%;
+    height: 7px;
+}
+
+#contact .contactcontent {
+    background:  rgba(184, 219, 217);
+}
+
+#contact  .map , #contact .contactcontent  {
+    flex: 1;
+}
+
+#contact .contactcontent .formgroup {
+    padding: 0 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#contact .contactcontent .formgroup label {
+    display: block;
+}
+
+#contact .contactcontent .formgroup input {
+    padding: 0.2rem;
+}
+
+#contact .contactcontent input,
+#contact .contactcontent textarea {
+width: 100%;
+}
+
+#contact .contactcontent .btn {
+    color: #333;
+    background: rgb(255, 255, 255);
+    border: none;
+    margin: 2rem 0 3rem 45%;
+    padding: 0.5rem 1rem;
+    width: 10%;
+}
+
+#about h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #000;
+    padding: 2rem 0 5rem 0;
+    position: relative;
+   
+}
+
+#about .aboutcontentflex {
+    display: flex;
+}
+
+#about .aboutcontent {
+    flex: 1;
+}
+
+#about .aboutcontentflex .aboutcontent {
+    text-align: center;
+    border: 1px solid rgb(226, 225, 225);
+    padding: 3rem;
+    margin: 1rem;
+}
+
+#about .aboutcontentflex .aboutcontent .fas {
+    color:  rgba(184, 219, 217);
+    margin-bottom: 0.5rem;
+}
+
+#about .aboutcontentflex .aboutcontent h2 {
+    margin-bottom: 0.5rem;
+}
+
+#services {
+    display: flex;
+    background: rgb(248, 248, 248);
+    padding: 5rem;
+    align-items: left;
+}
+
+#services h1 {
+    font-size: 2.5em;
+    color: #000;
+    padding: 0 0 5rem 0;
+    position: relative;
+}
+.textborder3::after {
+    content: '';
+    position: absolute;
+    background:  rgba(184, 219, 217);
+    width: 5%;
+    height: 7px;
+    left: 0%;
+    bottom: 0;
+    top: 60%;
+}
+
+#services .servicesleft p {
+    margin-bottom: 2rem;
+}
+
+#services .servicesleft .list {
+    list-style: none;
+}
+
+
+#services .servicesleft li {
+margin-bottom: 1rem;
+}
+
+#services .servicesleft li .fas {
+    padding: 0.5rem;
+    background:  rgba(184, 219, 217);
+    border-radius: 50%;
+}
+
+#services .servicesleft , 
+#services .servicesright {
+    flex: 1;
+}
